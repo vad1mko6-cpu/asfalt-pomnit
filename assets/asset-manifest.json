@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "frame": 128,
+  "directionOrder": ["down", "left", "right", "up"],
+  "catalog": [
+    "characters/player", "characters/npc", "characters/enemies",
+    "environments/buildings", "environments/roads", "environments/interiors", "environments/garages",
+    "vehicles", "objects", "inventory", "effects", "portraits", "ui", "audio"
+  ],
+  "sheets": [
+    { "id": "hero", "set": "hero", "dir": "characters/player", "source": "procedural" },
+    { "id": "marat", "set": "npc", "dir": "characters/npc", "source": "procedural" },
+    { "id": "sereg", "set": "npc", "dir": "characters/npc", "source": "procedural" },
+    { "id": "lilya", "set": "npc", "dir": "characters/npc", "source": "procedural" },
+    { "id": "mom", "set": "npc", "dir": "characters/npc", "source": "procedural" },
+    { "id": "zina", "set": "npc", "dir": "characters/npc", "source": "procedural" },
+    { "id": "misha", "set": "npc", "dir": "characters/npc", "source": "procedural" },
+    { "id": "valya", "set": "npc", "dir": "characters/npc", "source": "procedural" },
+    { "id": "gromov", "set": "npc", "dir": "characters/npc", "source": "procedural" },
+    { "id": "thug", "set": "enemy", "dir": "characters/enemies", "source": "procedural" },
+    { "id": "dinar", "set": "enemy", "dir": "characters/enemies", "source": "procedural" }
+  ]
+}
